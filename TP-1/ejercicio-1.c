@@ -2,7 +2,7 @@
 
 int main() {
     //Declaración de variables
-    char nombre[10], apellido[20];
+    char nombre[20], apellido[30];
     int telefono, edad;
 
 

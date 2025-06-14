@@ -12,10 +12,12 @@ int main() {
     printf("Ingrese el exponente : \n");
     scanf("%i", &exponente);
 
+    resultado = base ** exponente;
+
     /*Operaciones*/
-    for (int i=0 ; i < exponente; i++){
+   /* for (int i=0 ; i < exponente; i++){
         resultado = resultado * base;
-    }
+    } /*
 
     /*Muestra resultados por pantalla*/
     printf("El resultado de la potencia es : %i\n", resultado);
